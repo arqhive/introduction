@@ -1,0 +1,45 @@
+<html>
+
+  <head>
+
+  </head>
+
+  <body>
+    <!-- Block -->
+    <!-- 문맥 의존적이지 않은 독립된 객체 또는 높은 수준으로 추상화한 컴포넌트 -->
+    <!-- 하위에 요소만 포함할 수도 있고, 또 다른 블럭을 포함할 수도 있다. -->
+    <div class="block">
+      <!-- Element -->
+      <!-- 요소는 블럭을 구성하는 작은 단위로써 특정 기능을 담당한다. -->
+      <!-- 문맥 의존적이며 요소가 속한 블럭 내에서만 의미를 가진다. -->
+      <input type="text" />
+      <button type="submit">Submit</button>
+      <!-- Modifier -->
+      <!-- 변환자는 숨겨놓은 요소를 출력하거나 특정 버튼에 커서를 -->
+      <!-- 올렸을때 배경색을 변경하는 등 블럭이나 요소의 상태를 표현 -->
+      <!-- 기존과 비슷하지만 스타일이나 동작이 조금 다른 블럭이나 요스를 -->
+      <!-- 만들고 싶은 경우에 사용한다 -->
+    </div>
+
+    <!-- BEM은 클래스 명명 규칙을 강제하지 않는다. -->
+    <!-- MindBEMding -->
+    <!-- 호불호가 갈리는 명명법인건 사실 -->
+    <!-- 예제 -->
+    <div class="quick-menu">
+      <span class="quick-menu__title">
+        See Also
+      </span>
+      <ol class="quick-menu__list">
+        <li class="quick-menu__item">
+          item1
+        </li>
+        <li class="quick-menu__item--active">
+          item2
+        </li>
+      </ol>
+    </div>
+
+
+  </body>
+
+</html>
