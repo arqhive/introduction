@@ -1,0 +1,40 @@
+// 규칙 해제 0, 경고로 사용1, 오류 2
+const OFF = 0, WARN = 1, ERROR = 2;
+
+// parser 종류 : esprima, babel-eslint, typescript-eslint-parser
+// 모듈을 로컬로 설치해야함
+
+// 전역 변수 종류
+// browser, node, commonjs, es6.....
+
+module.exports = {
+    // 플러그인 추가시
+    "plugins": ["example"],
+
+    /* parser option */
+    // "env": 전역 변수
+    // "env":  { "es6": true, "example/custorm": true },
+    // 개별 설정
+    // "parserOptions": {
+    //     // 5(기본값)
+    //     "ecmaVersion": 6,
+    //     // "script"(기본값), "module"(module 사용시)
+    //     "sourceType": "module",
+    //     // 추가 언어기능
+    //     "ecmaFeatures": {
+    //         "jsx": true
+    //     }
+    // }
+
+    // 별도의 파서 모듈을 사용할경우
+    "parser": "babel-eslint",
+
+    // 세부 규칙 설정
+    "rules": {
+        "eqeqeq": "off",
+        "curly": "error",
+        "quotes": ["error", "double"],
+        // 플러그인 규칙 사용
+        "plugin1/rule1": "error"
+    }
+}

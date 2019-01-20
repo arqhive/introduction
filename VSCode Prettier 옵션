@@ -1,0 +1,79 @@
+VSCode Pretteir - Code formatter configuration
+
+Prettier: 화살표 괄호
+화살표 함수의 유일한 매개변수 주위에 괄호를 포함하시겠어요?
+-> avoid (안한다), always (항상 한다)호
+
+Prettier: 브래킷 간격
+객체 리터럴 안의 공백을 제어하시겠어요?
+-> check, uncheck
+
+Prettier: 사용하지 않을 언어
+이 확장프로그램을 사용하면서 중지할 언어들의 목록을 작성합니다.
+
+Prettier: End of Line
+Prettier에 의해 EOL의 방식을 지정합니다.
+-> auto, lf, crlf, cr
+
+Prettier: Eslint 통합
+prettier 대신에 prettier-eslint를 사용하시겠어요? eslint 규칙에서 추론
+할 수 없는 경우에는 기본설정으로 대체 될 수 있습니다.
+
+Prettier: HTML 공백 감도
+HTML 파일의 전역 공백 감도를 지정하세요
+유효한 옵션:
+css - CSS 표시 속성의 기본값을 존중합니다.
+ignore - 공백은 무시됩니다.
+strict - 공백은 민감하게 간주됩니다.
+
+Prettier : 무시할 경로
+.prettierignore에 무시할 파일의 경로를 작성하세요 
+
+Prettier:  JSX 브라켓 같은줄
+만약 설정된다면 '>'를 마지막줄에 혼자 두지 않고 마지막줄 끝에 넣습니다.
+
+Prettier: JSX 홑따옴표
+JSX에서 쌍따옴표 대신 홑따옴표를 사용합니다.
+
+Prettier: Parser
+파서를 오버라이드 합니다. 세부 설정은 불가능합니다.
+-> babylon, flow
+
+Prettier: 출력 너비
+한 줄에 최대 80글자까지 입력을 허용합니다.
+
+Prettier: 산문 포장
+마크다운 옵션입니다.
+
+Prettier: Config 요구
+'.prettierconfig'를 포맷에 요구할까요?
+
+Prettier: Single Quote
+쌍따옴표대신 홑따옴표를 사용합니다.
+
+Prettier: Stylelint 통합
+프리티어대신 Styleint 세팅을 사용할것인지.
+
+Prettier: Tab Width
+탭 너비를 지정합니다 (2)
+
+Prettier: 후행 쉼표
+후행 쉼표 출력을 제어합니다.
+-> none, es5(객체 배열등에서 유효한 후행쉼표), all(함수 인자까지 넣어버림)
+
+Prettier: Tslint Integration
+
+Prettier: Use Tabs
+줄 들여쓰기를 탭과 함께합니다. (non check)
+
+
+
+
+
+
+
+
+
+
+
+
